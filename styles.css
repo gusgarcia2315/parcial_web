@@ -372,8 +372,9 @@ footer {
         padding-right: 0;
     }
     .contact-image {
-        justify-content: center;
-        margin-top: 1rem;
+        display: none;
+    
+        
     }
     footer{
         background-color: #14182e;
