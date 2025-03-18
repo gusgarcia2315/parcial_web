@@ -1,0 +1,390 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    background-color: #8dadd4;
+    color: black;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav ul li {
+    margin-left: 1rem;
+}
+
+.navbar nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+.hero {
+    background-color: #8dadd4;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 4rem 0;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text .btn {
+    background-color: #8dadd4;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Companies Section */
+.companies {
+    background-color: #8dadd4;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.companies p {
+    color: #e4e4e4;
+}
+
+.companies .logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.companies .logos img {
+    max-width: 170px;
+}
+
+
+.branding {
+    background-color: #8dadd4;
+    padding: 2rem 0;
+}
+
+.branding h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.branding .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.branding .card {
+    width: calc(33.33% - 2rem);
+    text-align: left;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.branding .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    object-fit: contain;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+
+.custom {
+    background-color: #8dadd4;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.custom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 1rem
+}
+
+.custom-text {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+    text-align: left;
+    
+}
+
+.custom h1 {
+    max-width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.custom p {
+    max-width: 80%;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.custom-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+.contact {
+    background-color: #8dadd4;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 4rem 0;
+
+}
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-text {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.contact-text h2 {
+    max-width: 75%;
+    font-size: 3rem; 
+    margin-bottom: 0.5rem;
+}
+
+.contact-text p {
+    max-width: 68%;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-text .btn {
+    background-color: #8dadd4; 
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    background-color:#8dadd4;
+    color: black;
+    padding: 2rem 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-columns div {
+    width: 20%;
+    margin: 1rem 0;
+}
+
+.footer-columns h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-columns ul {
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.footer-columns ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-columns ul li a {
+    color: black;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar nav ul li {
+        margin: 0.5rem 0;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .hero-image {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .companies .logos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies .logos img {
+        margin: 1rem 0;
+    }
+    .branding .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .branding .card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .custom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .custom-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .custom-image {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .contact-image {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-columns div {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
