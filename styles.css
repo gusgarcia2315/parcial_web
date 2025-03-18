@@ -385,6 +385,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .footer-columns ul li a {
+        color: #fff;
+    }
     .footer-columns div {
         width: 100%;
         text-align: center;
