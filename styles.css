@@ -315,7 +315,7 @@ footer {
     word-spacing: 5px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .navbar nav ul {
         flex-direction: column;
@@ -374,6 +374,10 @@ footer {
     .contact-image {
         justify-content: center;
         margin-top: 1rem;
+    }
+    footer{
+        background-color: #14182e;
+        display: flex;
     }
     .footer-columns {
         flex-direction: column;
