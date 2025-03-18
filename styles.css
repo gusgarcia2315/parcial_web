@@ -378,6 +378,7 @@ footer {
     }
     footer{
         background-color: #14182e;
+        color: #fff;
         display: flex;
     }
     .footer-columns {
