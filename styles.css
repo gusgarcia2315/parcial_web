@@ -337,7 +337,7 @@ footer {
         margin-top: 1rem;
     }
     .companies .logos {
-        flex-direction: column;
+        display: flex;
         align-items: center;
     }
     .companies .logos img {
@@ -348,7 +348,7 @@ footer {
         align-items: center;
     }
     .branding .card {
-        width: 100%;
+        width: 80%;
         margin: 1rem 0;
     }
     .custom {
