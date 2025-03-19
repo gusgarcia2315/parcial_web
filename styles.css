@@ -339,6 +339,13 @@ footer {
         padding-right: 0;
         text-align: center;
     }
+    .hero-text .btn {
+        background-color: #262c38;
+        color: #8dadd4;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+    }
     .hero-image {
         justify-content: center;
         margin-top: 1rem;
@@ -364,6 +371,7 @@ footer {
     }
     .custom {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
     .custom-text {
@@ -377,6 +385,7 @@ footer {
     }
     .contact {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
     .contact-text .btn {
@@ -385,6 +394,11 @@ footer {
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         border-radius: 5px;
+    }
+    .contact .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
     }
     .contact-text {
         max-width: 100%;
