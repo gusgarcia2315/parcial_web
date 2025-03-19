@@ -342,6 +342,10 @@ footer {
         justify-content: center;
         margin-top: 1rem;
     }
+    .companies .container{
+        flex-direction: column;
+
+    }
     .companies .logos {
         display: flex;
         align-items: center;
@@ -372,6 +376,13 @@ footer {
     .contact {
         flex-direction: column;
         text-align: center;
+    }
+    .contact-text .btn {
+        background-color: #8dadd4; 
+        color: #262c38;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
     }
     .contact-text {
         max-width: 100%;
