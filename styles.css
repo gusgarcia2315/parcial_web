@@ -324,7 +324,10 @@ footer {
     .navbar nav ul li {
         margin: 0.5rem 0;
     }
-    
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .hero .container{
         flex-direction: column;
@@ -367,19 +370,16 @@ footer {
         width: 80%;
         margin: 1rem 0;
     }
-    
-    #custom, #contact, #hero{
-        display: flex;
+    .custom {
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        text-align: center;
     }
     .custom .container{
         flex-direction: column;
         align-items: center;
         padding: 2rem 1rem;
     }
-    
     .custom-text {
         max-width: 100%;
         padding-right: 0;
@@ -390,7 +390,11 @@ footer {
         justify-content: center;
         margin-top: 1rem;
     }
-  
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     .contact-text {
         max-width: 100%;
         padding-right: 0;
@@ -404,9 +408,13 @@ footer {
         text-decoration: none;
         border-radius: 5px;
     }
-  
+    .contact .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem;
+    }
    
-    
+    }
     .contact-image {
         display: none;
     
