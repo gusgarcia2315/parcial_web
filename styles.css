@@ -374,6 +374,11 @@ footer {
         align-items: center;
         text-align: center;
     }
+    .custom .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
     .custom-text {
         max-width: 100%;
         padding-right: 0;
